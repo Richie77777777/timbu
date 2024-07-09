@@ -152,7 +152,11 @@ function Footer() {
   </div>
   <div className="mt-8 border-t border-gray-100 p-4 bg-black">
       <div className="sm:flex sm:justify-between">
-        <p className="text-xs ">&copy; 2024. Company Name. All rights reserved.</p>
+        <p className="text-xs flex items-center "> 
+      <img src="/assets/Frame 13.png" alt="logo" className='w-[70px]' />
+          
+          
+           &copy; 2024. Company Name. All rights reserved.</p>
 
         <ul className="col-span-2 flex justify-start gap-6 lg:col-span-5 lg:justify-end">
           <li className='bg-brandbrown rounded-full h-10 w-10 grid place-content-center'>
