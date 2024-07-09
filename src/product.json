@@ -1,0 +1,63 @@
+[
+    {
+        "id": 1,
+        "name": "Martini Rose",
+        "category": "Red Wine",
+        "ach_percent": "12%",
+        "litre": "75cl",
+        "rating": 4.5,
+        "price": 6000,
+        "img": "/assets/PixCut-removebg_thumbnail 1.png"
+    },
+    {
+        "id": 2,
+        "name": "Martini Rose",
+        "category": "Red Wine",
+        "ach_percent": "12%",
+        "litre": "75cl",
+        "rating": 4.5,
+        "price": 6000,
+        "img": "/assets/PixCut-removebg_thumbnail 1.png"
+    },
+    {
+        "id": 3,
+        "name": "Martini Rose",
+        "category": "Red Wine",
+        "ach_percent": "12%",
+        "litre": "75cl",
+        "rating": 4.5,
+        "price": 6000,
+        "img": "/assets/PixCut-removebg_thumbnail 1.png"
+    },
+    {
+        "id": 4,
+        "name": "Martini Rose",
+        "category": "Red Wine",
+        "ach_percent": "12%",
+        "litre": "75cl",
+        "rating": 4.5,
+        "price": 6000,
+        "img": "/assets/PixCut-removebg_thumbnail 1.png"
+    },
+    {
+        "id": 5,
+        "name": "Martini Rose",
+        "category": "Red Wine",
+        "ach_percent": "12%",
+        "litre": "75cl",
+        "rating": 4.5,
+        "price": 6000,
+        "img": "/assets/PixCut-removebg_thumbnail 1.png"
+    },
+    {
+        "id": 6,
+        "name": "Martini Rose",
+        "category": "Red Wine",
+        "ach_percent": "12%",
+        "litre": "75cl",
+        "rating": 4.5,
+        "price": 6000,
+        "img": "/assets/PixCut-removebg_thumbnail 1.png"
+    }
+    
+]

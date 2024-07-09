@@ -1,0 +1,5 @@
+.box-inf{
+    @apply border-r border-r-brandbrown md:space-y-3 
+    text-center px-4 md:px-12 text-brandbrown flex flex-col 
+    justify-between items-center font-serif w-full;
+}
