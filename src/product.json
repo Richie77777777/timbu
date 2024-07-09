@@ -11,53 +11,83 @@
     },
     {
         "id": 2,
-        "name": "Martini Rose",
+        "name": "Four Cousins",
         "category": "Red Wine",
         "ach_percent": "12%",
         "litre": "75cl",
         "rating": 4.5,
-        "price": 6000,
-        "img": "/assets/PixCut-removebg_thumbnail 1.png"
+        "price": 8000,
+        "img": "/assets/PixCut-removebg (1) 1.png"
     },
     {
         "id": 3,
-        "name": "Martini Rose",
+        "name": "Declan Red",
         "category": "Red Wine",
         "ach_percent": "12%",
         "litre": "75cl",
-        "rating": 4.5,
-        "price": 6000,
-        "img": "/assets/PixCut-removebg_thumbnail 1.png"
+        "rating": 4.8,
+        "price": 8000,
+        "img": "/assets/PixCut-removebg_thumbnail 1 (1).png"
     },
     {
         "id": 4,
-        "name": "Martini Rose",
+        "name": "Cabernet Sauvignon",
         "category": "Red Wine",
         "ach_percent": "12%",
         "litre": "75cl",
         "rating": 4.5,
-        "price": 6000,
-        "img": "/assets/PixCut-removebg_thumbnail 1.png"
+        "price": 10000,
+        "img": "/assets/image 17.png"
     },
     {
         "id": 5,
-        "name": "Martini Rose",
+        "name": "Merlot",
         "category": "Red Wine",
         "ach_percent": "12%",
         "litre": "75cl",
         "rating": 4.5,
-        "price": 6000,
-        "img": "/assets/PixCut-removebg_thumbnail 1.png"
+        "price": 5000,
+        "img": "/assets/image 18.png"
     },
     {
         "id": 6,
-        "name": "Martini Rose",
+        "name": "Zinfndel",
         "category": "Red Wine",
         "ach_percent": "12%",
         "litre": "75cl",
         "rating": 4.5,
         "price": 6000,
-        "img": "/assets/PixCut-removebg_thumbnail 1.png"
+        "img": "/assets/image 19.png"
+    },
+    {
+        "id": 7,
+        "name": "Nebbiolo",
+        "category": "Red Wine",
+        "ach_percent": "12%",
+        "litre": "75cl",
+        "rating": 4.5,
+        "price": 7000,
+        "img": "/assets/image 20.png"
+    },
+    {
+        "id": 8,
+        "name": "Sangiovese",
+        "category": "Red Wine",
+        "ach_percent": "12%",
+        "litre": "75cl",
+        "rating": 4.5,
+        "price": 6000,
+        "img": "/assets/image 21.png"
+    },
+    {
+        "id": 9,
+        "name": "Pinot Noir",
+        "category": "Red Wine",
+        "ach_percent": "12%",
+        "litre": "75cl",
+        "rating": 4.5,
+        "price": 8000,
+        "img": "/assets/image 22.png"
     }
     
 ]
