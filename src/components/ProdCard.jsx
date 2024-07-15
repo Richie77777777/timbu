@@ -23,7 +23,7 @@ function ProdCard({
           />
         </div>{" "}
         <div className="p-4 font-serif bg-brandbg rounded-md">
-          <h2 className=" md:text-xl font-bold text-brandbrown font-serif">
+          <h2 className="  font-bold text-brandbrown font-serif">
             {name} | {category} | {ach_percent} | {litre}
           </h2>
           <div className="flex justify-between items-center">
@@ -33,7 +33,7 @@ function ProdCard({
                 {rating} <PiStarFill className="text-yellow-400" />
               </p>
 
-              <button className="bg-none text-brandbrown border border-brandbrown grid place-content-center w-8 h-8 rounded-full mt-2">
+              <button className="bg-none text-brandbrown border border-brandbrown grid place-content-center w-8 h-8 rounded-full mt-2 hover:bg-brandbrown hover:text-white">
                 <IoCartOutline className="inline-block" />
               </button>
             </div>

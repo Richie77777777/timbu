@@ -88,6 +88,215 @@
         "rating": 4.5,
         "price": 8000,
         "img": "/assets/image 22.png"
+    },
+    {
+        "id": 10,
+        "name": "Chardonnay",
+        "category": "White Wine",
+        "ach_percent": "13%",
+        "litre": "75cl",
+        "rating": 4.6,
+        "price": 9000,
+        "img": "/assets/placeholder.png"
+    },
+    {
+        "id": 11,
+        "name": "Sauvignon Blanc",
+        "category": "White Wine",
+        "ach_percent": "12.5%",
+        "litre": "75cl",
+        "rating": 4.7,
+        "price": 8500,
+        "img": "/assets/placeholder.png"
+    },
+    {
+        "id": 12,
+        "name": "Pinot Grigio",
+        "category": "White Wine",
+        "ach_percent": "11.5%",
+        "litre": "75cl",
+        "rating": 4.4,
+        "price": 7500,
+        "img": "/assets/placeholder.png"
+    },
+    {
+        "id": 13,
+        "name": "Riesling",
+        "category": "White Wine",
+        "ach_percent": "12%",
+        "litre": "75cl",
+        "rating": 4.5,
+        "price": 8000,
+        "img": "/assets/placeholder.png"
+    },
+    {
+        "id": 14,
+        "name": "Moscato",
+        "category": "White Wine",
+        "ach_percent": "11%",
+        "litre": "75cl",
+        "rating": 4.6,
+        "price": 7000,
+        "img": "/assets/placeholder.png"
+    },
+    {
+        "id": 15,
+        "name": "Gewürztraminer",
+        "category": "White Wine",
+        "ach_percent": "12%",
+        "litre": "75cl",
+        "rating": 4.5,
+        "price": 8500,
+        "img": "/assets/placeholder.png"
+    },
+    {
+        "id": 16,
+        "name": "Syrah",
+        "category": "Red Wine",
+        "ach_percent": "13.5%",
+        "litre": "75cl",
+        "rating": 4.7,
+        "price": 9000,
+        "img": "/assets/placeholder.png"
+    },
+    {
+        "id": 17,
+        "name": "Grenache",
+        "category": "Red Wine",
+        "ach_percent": "13%",
+        "litre": "75cl",
+        "rating": 4.6,
+        "price": 8500,
+        "img": "/assets/placeholder.png"
+    },
+    {
+        "id": 18,
+        "name": "Tempranillo",
+        "category": "Red Wine",
+        "ach_percent": "12.5%",
+        "litre": "75cl",
+        "rating": 4.5,
+        "price": 8000,
+        "img": "/assets/placeholder.png"
+    },
+    {
+        "id": 19,
+        "name": "Malbec",
+        "category": "Red Wine",
+        "ach_percent": "13%",
+        "litre": "75cl",
+        "rating": 4.8,
+        "price": 9500,
+        "img": "/assets/placeholder.png"
+    },
+    {
+        "id": 20,
+        "name": "Carménère",
+        "category": "Red Wine",
+        "ach_percent": "13%",
+        "litre": "75cl",
+        "rating": 4.5,
+        "price": 9000,
+        "img": "/assets/placeholder.png"
+    },
+    {
+        "id": 21,
+        "name": "Champagne",
+        "category": "Sparkling Wine",
+        "ach_percent": "12%",
+        "litre": "75cl",
+        "rating": 4.9,
+        "price": 20000,
+        "img": "/assets/placeholder.png"
+    },
+    {
+        "id": 22,
+        "name": "Prosecco",
+        "category": "Sparkling Wine",
+        "ach_percent": "11%",
+        "litre": "75cl",
+        "rating": 4.7,
+        "price": 12000,
+        "img": "/assets/placeholder.png"
+    },
+    {
+        "id": 23,
+        "name": "Cava",
+        "category": "Sparkling Wine",
+        "ach_percent": "12%",
+        "litre": "75cl",
+        "rating": 4.6,
+        "price": 10000,
+        "img": "/assets/placeholder.png"
+    },
+    {
+        "id": 24,
+        "name": "Lambrusco",
+        "category": "Sparkling Wine",
+        "ach_percent": "11.5%",
+        "litre": "75cl",
+        "rating": 4.5,
+        "price": 9000,
+        "img": "/assets/placeholder.png"
+    },
+    {
+        "id": 25,
+        "name": "Rosé",
+        "category": "Rosé Wine",
+        "ach_percent": "12%",
+        "litre": "75cl",
+        "rating": 4.6,
+        "price": 8500,
+        "img": "/assets/placeholder.png"
+    },
+    {
+        "id": 26,
+        "name": "White Zinfandel",
+        "category": "Rosé Wine",
+        "ach_percent": "11%",
+        "litre": "75cl",
+        "rating": 4.4,
+        "price": 8000,
+        "img": "/assets/placeholder.png"
+    },
+    {
+        "id": 27,
+        "name": "Grenache Rosé",
+        "category": "Rosé Wine",
+        "ach_percent": "12%",
+        "litre": "75cl",
+        "rating": 4.5,
+        "price": 8500,
+        "img": "/assets/placeholder.png"
+    },
+    {
+        "id": 28,
+        "name": "Sangiovese Rosé",
+        "category": "Rosé Wine",
+        "ach_percent": "12%",
+        "litre": "75cl",
+        "rating": 4.6,
+        "price": 9000,
+        "img": "/assets/placeholder.png"
+    },
+    {
+        "id": 29,
+        "name": "Pinot Noir Rosé",
+        "category": "Rosé Wine",
+        "ach_percent": "12%",
+        "litre": "75cl",
+        "rating": 4.7,
+        "price": 9500,
+        "img": "/assets/placeholder.png"
+    },
+    {
+        "id": 30,
+        "name": "Syrah Rosé",
+        "category": "Rosé Wine",
+        "ach_percent": "12%",
+        "litre": "75cl",
+        "rating": 4.5,
+        "price": 9000,
+        "img": "/assets/placeholder.png"
     }
-    
 ]

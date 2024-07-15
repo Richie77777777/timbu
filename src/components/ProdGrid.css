@@ -1,0 +1,15 @@
+.pagination {
+    @apply flex justify-center space-x-2 p-5 font-serif text-xl text-brandbrown;
+}
+
+.pagination li a {
+    @apply px-5 py-7 cursor-pointer;
+}
+
+.current {
+    @apply border-y border-y-brandbrown;
+}
+
+.next, .previous{
+    @apply rounded-full border-2 border-brandbrown p-2 font-bold w-10 h-10 flex justify-center items-center text-brandbrown;
+}
