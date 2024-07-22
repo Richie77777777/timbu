@@ -11,7 +11,7 @@ function Header() {
             <Nav/>
             <div className="h-48  md:h-96 w-full flex justify-start -z-30 text-brandbrown font-serif relative"
                 style={{
-                    backgroundImage: "url(/assets/istockphoto-1489837649-1024x1024.jpg)",
+                    backgroundImage: "url(/assets/wine_glass.webp)",
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                     backgroundRepeat: "no-repeat"
