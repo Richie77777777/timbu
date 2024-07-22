@@ -4,8 +4,14 @@ import { GoShieldCheck } from "react-icons/go";
 // import { AiOutlineDollarCircle } from "react-icons/ai";
 import "./Product.css";
 import Shop from "../components/Shop";
+import { CartState } from "../contexts/ShoppingContext";
 
 function Products() {
+
+  const {produce} = CartState()
+
+  console.log(produce)
+
   return (
     <div className="">
       <div className="p-7 md:p-12">

@@ -4,6 +4,8 @@ import './App.css';
 import Products from './pages/Products';
 import RootLayout from './pages/RootLayout';
 import ProductDetails from './pages/ProductDetails';
+import ErrorPage from './pages/ErrorPage';
+import CheckOut from './pages/CheckOut';
 // import Nav from './components/Nav'
 
 function App() {
@@ -12,7 +14,9 @@ function App() {
       <Routes>
         <Route path='/' element={<RootLayout/>}>
             <Route index element={<Products/>}/>
-            <Route path=':id' element={<ProductDetails/>}/>
+            <Route path='/product/:id' element={<ProductDetails/>}/>
+            <Route path='/cart' element={<CheckOut/>}/>
+            <Route path='*' element={<ErrorPage/>}/>
         </Route>
       </Routes>
     </div>

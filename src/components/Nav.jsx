@@ -6,8 +6,12 @@ import { IoCartOutline } from "react-icons/io5";
 import { MdOutlineSearch } from "react-icons/md";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoMdClose } from "react-icons/io";
+import { CartState } from '../contexts/ShoppingContext';
 
 function Nav() {
+
+    const {produce:{cart}} = CartState()
+
     const [show, setShow] = useState(false)
   return (
     <div className='flex bg-brandbrown/60 justify-between items-center py-3 w-full sticky top-0'>
@@ -62,10 +66,12 @@ function Nav() {
                 <input type="text" className='bg-transparent outline-none border-none' />
                 <MdOutlineSearch className='text-2xl'/>
             </div>
-            <Link to='/cart' className='p-3 rounded-full bg-brandbrown hover:bg-brandbrown/20 border border-slate-400'>
+            <Link to='/cart' className='p-3 rounded-full bg-brandbrown hover:bg-brandbrown/20 border border-slate-400 relative'>
+            {cart.length?<div className= 'text-sm font-thin bg-red-500 rounded-full absolute top-0 right-0 text-white h-5 w-5 grid place-content-center'>{cart.length}</div>:<></>}
             <IoCartOutline className="text-white md:text-2xl"/>
             </Link>
-            <Link to='/profile' className='p-3 rounded-full bg-brandbrown hover:bg-brandbrown/20 border border-slate-400'>
+            <Link to='/profile' className='p-3 rounded-full bg-brandbrown hover:bg-brandbrown/20 border border-slate-400 '>
+            
             <FaUser className="text-white md:text-2xl"/>
             </Link>
         </div>

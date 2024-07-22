@@ -1,11 +1,12 @@
 import React, {useState} from "react";
-import products from "../product.json";
+
 import ProdCard from "./ProdCard";
 import { MdOutlineSearch } from "react-icons/md";
 import { IoIosArrowDropleft } from "react-icons/io";
 import { IoIosArrowDropright } from "react-icons/io";
 import ReactPaginate from 'react-paginate';
 import './ProdGrid.css';
+import { CartState } from "../contexts/ShoppingContext";
 
 
 function ProdGrid() {
@@ -13,7 +14,8 @@ function ProdGrid() {
   const [currentPage, setCurrentPage] = useState(0);
   const itemPerPage= 9;
 
-  
+  const {produce} = CartState()
+  const products = produce.products
 
 
   const filtered= products.filter(i=> i.name.toLowerCase().includes(finder))

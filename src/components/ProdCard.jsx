@@ -1,17 +1,16 @@
 import React from "react";
 import { IoCartOutline } from "react-icons/io5";
 import { PiStarFill } from "react-icons/pi";
+import { Link } from "react-router-dom";
+import { CartState } from "../contexts/ShoppingContext";
+import { MdReadMore } from "react-icons/md";
 
-function ProdCard({
-  name,
-  price,
-  img,
-  id,
-  ach_percent,
-  litre,
-  rating,
-  category,
-}) {
+function ProdCard(product ) {
+
+  const {id, name, img, price, rating, category, ach_percent, litre} = product
+    const {produce: {cart}, dispatch} = CartState()
+    console.log(cart)
+
   return (
     <div>
       <div className="bg-brandteal/20 rounded-lg shadow-md p-1">
@@ -32,10 +31,21 @@ function ProdCard({
               <p className="flex items-end space-x-1">
                 {rating} <PiStarFill className="text-yellow-400" />
               </p>
-
-              <button className="bg-none text-brandbrown border border-brandbrown grid place-content-center w-8 h-8 rounded-full mt-2 hover:bg-brandbrown hover:text-white">
-                <IoCartOutline className="inline-block" />
-              </button>
+              <Link to={`/product/${id}`}>
+                <button 
+                className="bg-none text-brandbrown border border-brandbrown grid place-content-center w-8 h-8 rounded-full mt-2 hover:bg-brandbrown hover:text-white">
+                  <MdReadMore className="inline-block" />
+                </button>
+              </Link>
+             {cart.some(c=>c.id===product.id)?<button 
+                onClick={()=>dispatch({type: 'REMOVE_FROM_CART',payload: product})}
+                className="bg-red-600 text-white font-sans border border-brandbrown grid place-content-center w-8 h-8 rounded-full mt-2 hover:bg-red-400 hover:text-white">
+                  X
+                </button>:<button 
+                onClick={()=>dispatch({type: 'ADD_TO_CART',payload: product})}
+                className="bg-none text-brandbrown border border-brandbrown grid place-content-center w-8 h-8 rounded-full mt-2 hover:bg-brandbrown hover:text-white">
+                  <IoCartOutline className="inline-block" />
+                </button>}
             </div>
           </div>
         </div>
