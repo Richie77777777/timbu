@@ -51,25 +51,12 @@ function Footer() {
 
           <ul className="mt-6 space-y-4 text-sm">
             <li>
-              <Link href="#" className=" transition hover:opacity-75"> 1on1 Coaching </Link>
+              <Link>
+              Red Wine
+              </Link>
             </li>
+            </ul>
 
-            <li>
-              <Link href="#" className=" transition hover:opacity-75"> Company Review </Link>
-            </li>
-
-            <li>
-              <Link href="#" className=" transition hover:opacity-75"> Accounts Review </Link>
-            </li>
-
-            <li>
-              <Link href="#" className=" transition hover:opacity-75"> HR Consulting </Link>
-            </li>
-
-            <li>
-              <Link href="#" className=" transition hover:opacity-75"> SEO Optimisation </Link>
-            </li>
-          </ul>
         </div>
 
         <div className="col-span-2 sm:col-span-1">
@@ -85,7 +72,7 @@ function Footer() {
             </li>
 
             <li>
-              <Link href="#" className=" transition hover:opacity-75"> Accounts Review </Link>
+              <Link href="#" className=" transition hover:opacity-75"> Shipment </Link>
             </li>
           </ul>
         </div>
@@ -130,19 +117,7 @@ function Footer() {
           </ul>
         </div>
 
-        <div className="col-span-2 sm:col-span-1">
-          <p className="font-medium ">Downloads</p>
-
-          <ul className="mt-6 space-y-4 text-sm">
-            <li>
-              <Link href="#" className=" transition hover:opacity-75"> Marketing Calendar </Link>
-            </li>
-
-            <li>
-              <Link href="#" className=" transition hover:opacity-75"> SEO Infographics </Link>
-            </li>
-          </ul>
-        </div>
+        
 
        
       </div>

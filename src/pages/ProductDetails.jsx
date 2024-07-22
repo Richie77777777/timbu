@@ -73,7 +73,7 @@ function ProductDetails() {
           <h2 className="font-bold text-xl  mb-8">Product Description</h2>
           <p>
             Experience the harmonious blend of tradition and modern winemaking
-            with Four Cousins Red Wine. Crafted with care and passion in the
+            with {obj.name} {obj.category}. Crafted with care and passion in the
             picturesque vineyards of South Africa, this wine represents a
             perfect fusion of quality, heritage, and innovation.
           </p>

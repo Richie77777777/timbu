@@ -20,7 +20,7 @@ function Header() {
                 <div className="w-1/2 flex flex-col absolute left-4 bottom-5 py-10">
                 {/* <img src="/assets/Frame 13.png" alt="logo" className='md:h-[100px]' /> */}
                     
-                    <p className="md:text-4xl md:w-96 md:leading-tight w-full">Elevate your whine experience</p>
+                    <p className="md:text-4xl md:w-96 md:leading-tight w-full">Elevate your wine experience</p>
                 </div>
             </div>
         </header>
