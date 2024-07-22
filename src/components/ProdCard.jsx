@@ -5,11 +5,14 @@ import { Link } from "react-router-dom";
 import { CartState } from "../contexts/ShoppingContext";
 import { MdReadMore } from "react-icons/md";
 
-function ProdCard(product ) {
-
-  const {id, name, img, price, rating, category, ach_percent, litre} = product
-    const {produce: {cart}, dispatch} = CartState()
-    console.log(cart)
+function ProdCard(product) {
+  const { id, name, img, price, rating, category, ach_percent, litre } =
+    product;
+  const {
+    produce: { cart },
+    dispatch,
+  } = CartState();
+  console.log(cart);
 
   return (
     <div>
@@ -32,25 +35,31 @@ function ProdCard(product ) {
                 {rating} <PiStarFill className="text-yellow-400" />
               </p>
               <Link to={`/product/${id}`}>
-                <button 
-                className="bg-none text-brandbrown border border-brandbrown grid place-content-center w-8 h-8 rounded-full mt-2 hover:bg-brandbrown hover:text-white">
+                <button className="bg-none text-brandbrown border border-brandbrown grid place-content-center w-8 h-8 rounded-full mt-2 hover:bg-brandbrown hover:text-white">
                   <MdReadMore className="inline-block" />
                 </button>
               </Link>
-             {cart.some(c=>c.id===product.id)?<button 
-                onClick={()=>{
-                  localStorage.setItem('cart', JSON.stringify(cart))
-                  return dispatch({type: 'REMOVE_FROM_CART',payload: product})}}
-                className="bg-red-600 text-white font-sans border border-brandbrown grid place-content-center w-8 h-8 rounded-full mt-2 hover:bg-red-400 hover:text-white">
+              {cart.some((c) => c.id === product.id) ? (
+                <button
+                  onClick={() => {
+                    localStorage.setItem("cart", JSON.stringify(cart));
+                    dispatch({ type: "REMOVE_FROM_CART", payload: product });
+                  }}
+                  className="bg-red-600 text-white font-sans border border-brandbrown grid place-content-center w-8 h-8 rounded-full mt-2 hover:bg-red-400 hover:text-white"
+                >
                   X
-                </button>:<button 
-                onClick={()=>{
-                localStorage.setItem('cart', JSON.stringify(cart))
-                 return dispatch({type: 'ADD_TO_CART',payload: product})}
-              }
-                className="bg-none text-brandbrown border border-brandbrown grid place-content-center w-8 h-8 rounded-full mt-2 hover:bg-brandbrown hover:text-white">
+                </button>
+              ) : (
+                <button
+                  onClick={() => {
+                    localStorage.setItem("cart", JSON.stringify(cart));
+                    dispatch({ type: "ADD_TO_CART", payload: product });
+                  }}
+                  className="bg-none text-brandbrown border border-brandbrown grid place-content-center w-8 h-8 rounded-full mt-2 hover:bg-brandbrown hover:text-white"
+                >
                   <IoCartOutline className="inline-block" />
-                </button>}
+                </button>
+              )}
             </div>
           </div>
         </div>

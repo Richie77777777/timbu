@@ -41,6 +41,7 @@ function CheckOut() {
               <div className="flex space-x-1 mr-3">
                 <button
                   onClick={() => {
+                    localStorage.setItem('cart', JSON.stringify(cart))
                     dispatch({
                       type: "CHANGE_CART_QTY",
                       payload: { id: item.id, qty: item.qty + 1 },
@@ -55,6 +56,7 @@ function CheckOut() {
                 </h3>
                 <button
                   onClick={() => {
+                    localStorage.setItem('cart', JSON.stringify(cart))
                     dispatch({
                       type: "CHANGE_CART_QTY",
                       payload: { id: item.id, qty: item.qty - 1 },

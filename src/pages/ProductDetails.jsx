@@ -44,7 +44,9 @@ function ProductDetails() {
                 <p>{obj.price} NGN</p>
                 <div>
                   {cart.some(c=>c.id===obj.id)?<button 
-                  onClick={()=>dispatch({type: 'REMOVE_FROM_CART',payload: obj})}
+                  onClick={()=>{
+                    localStorage.setItem('cart', JSON.stringify(cart))
+                    dispatch({type: 'REMOVE_FROM_CART',payload: obj})}}
                   className="text-sm text-white border rounded-full px-5 
                 py-2 font-sans font-thin bg-red-500 transition-all duration-300 ease-in-out
                 hover:text-red-500 hover:border hover:bg-transparent ">
@@ -52,7 +54,9 @@ function ProductDetails() {
                     Remove from cart
                   </button>:<button
 
-                  onClick={()=>dispatch({type: 'ADD_TO_CART',payload: obj})}
+                  onClick={()=>{
+                    localStorage.setItem('cart', JSON.stringify(cart))
+                    dispatch({type: 'ADD_TO_CART',payload: obj})}}
                     className="text-sm text-white border rounded-full px-5 
                 py-2 font-sans font-thin bg-brandbrown transition-all duration-300 ease-in-out
                 hover:text-brandbrown hover:border hover:bg-transparent "
