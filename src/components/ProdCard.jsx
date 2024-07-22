@@ -38,11 +38,16 @@ function ProdCard(product ) {
                 </button>
               </Link>
              {cart.some(c=>c.id===product.id)?<button 
-                onClick={()=>dispatch({type: 'REMOVE_FROM_CART',payload: product})}
+                onClick={()=>{
+                  localStorage.setItem('cart', JSON.stringify(cart))
+                  return dispatch({type: 'REMOVE_FROM_CART',payload: product})}}
                 className="bg-red-600 text-white font-sans border border-brandbrown grid place-content-center w-8 h-8 rounded-full mt-2 hover:bg-red-400 hover:text-white">
                   X
                 </button>:<button 
-                onClick={()=>dispatch({type: 'ADD_TO_CART',payload: product})}
+                onClick={()=>{
+                localStorage.setItem('cart', JSON.stringify(cart))
+                 return dispatch({type: 'ADD_TO_CART',payload: product})}
+              }
                 className="bg-none text-brandbrown border border-brandbrown grid place-content-center w-8 h-8 rounded-full mt-2 hover:bg-brandbrown hover:text-white">
                   <IoCartOutline className="inline-block" />
                 </button>}

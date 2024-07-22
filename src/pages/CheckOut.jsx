@@ -30,6 +30,7 @@ function CheckOut() {
                 <h3>{item.price}</h3>
                 <button
                   onClick={() => {
+                    localStorage.setItem('cart', JSON.stringify(cart))
                     dispatch({ type: "REMOVE_FROM_CART", payload: item });
                   }}
                   className="bg-red-500 text-white px-2 py-1 rounded-lg border border-white"

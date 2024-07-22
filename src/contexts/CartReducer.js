@@ -15,8 +15,12 @@ export const cartReducer = (state, action) => {
                 ...state,
                 cart: state.cart.filter(item => item.id === action.payload.id ? item.qty = action.payload.qty : item.qty)
             }
-        
 
+        case "SET_CART":
+            return {
+                ...state,
+                cart: action.payload
+            }
         default:
             return state
     }

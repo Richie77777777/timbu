@@ -1,4 +1,4 @@
-import { createContext, useContext, useReducer } from "react"
+import { createContext, useContext, useEffect, useReducer } from "react"
 import prodycts from '../product.json'
 import { cartReducer } from "./CartReducer"
 
@@ -30,6 +30,13 @@ const initialState = {
 
 
  const [produce, dispatch] = useReducer(cartReducer, initialState)
+
+ useEffect(()=>{
+    const cart = window.localStorage.getItem('cart')
+    if(cart){
+        dispatch({type: 'SET_CART', payload: JSON.parse(cart)})
+    }
+ },[])
 
  return(
     <ShoppingContext.Provider value={{produce, dispatch}}>
