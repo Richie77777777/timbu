@@ -4,15 +4,16 @@ function ProdCate() {
   return (
     <div className='hidden md:block w-[300px] px-8 '>
         <div>
-            <h2 className=' font-bold text-xl text-brandbrown font-serif mb-4'>Products By Category</h2>
+            <h2 className=' font-bold text-xl text-green-900 font-serif mb-4'>Products By Category</h2>
             <ul className='space-y-5 text-lg'>
                 <li className='text-brandbrown bg-brandteal/50 rounded-full'>Red Wine</li>
-                <li>White Wine</li>
-                <li>Rose Wine</li>
-                <li>Sparkilng Wine</li>
-                <li>Dessert Wine</li>
-                <li>Forfeited Wine</li>
-                <li>Natural and Organic Wine</li>
+                <li className='text-orange-500 font-serif my-4'>White Wine</li>
+                <li className='text-orange-500 font-serif my-4'>Rose Wine</li>
+                <li className='text-orange-500 font-serif my-4'>Sparkilng Wine</li>
+                <li className='text-orange-500 font-serif my-4'>Dessert Wine</li>
+                <li className='text-orange-500 font-serif my-4'>Dessert Wine</li>
+                <li className='text-orange-500 font-serif my-4'>Forfeited Wine</li>
+                <li className='text-orange-500 font-serif my-4'>Natural and Organic Wine</li>
             </ul>
         </div>
         <div>
