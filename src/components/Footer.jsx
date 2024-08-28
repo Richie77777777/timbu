@@ -22,7 +22,7 @@ function Footer() {
            
 
             <p className="mt-4 ">
-            Join our mailing list and never miss out on amazing deals & offers..
+            Get the fastest news by joining our community
             </p>
           </div>
         </div>

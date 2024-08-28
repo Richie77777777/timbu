@@ -20,7 +20,7 @@ function Header() {
                 <div className="w-1/2 flex flex-col absolute left-4 bottom-5 py-10">
                
                     
-                    <p className="md:text-4xl md:w-96 md:leading-tight w-full">Elevate your wine experience</p>
+                    <p className="md:text-4xl md:w-96 md:leading-tight w-full">"Where Every Bottle Tells a Story. Sip, Savor, and Celebrate Life."</p>
                 </div>
             </div>
         </header>

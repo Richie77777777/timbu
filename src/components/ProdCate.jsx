@@ -16,15 +16,15 @@ function ProdCate() {
             </ul>
         </div>
         <div>
-            <h2 className=' font-bold text-xl text-brandbrown font-serif my-4'>Brand By Category</h2>
+            <h2 className=' font-bold text-xl text-blue-700 font-serif my-4'>Brand By Category</h2>
             <ul className='space-y-5 text-lg'>
-                <li>Robert Monday</li>
-                <li>Hugei and Fils</li>
-                <li>Beringer</li>
-                <li>Veuve Clicquot</li>
-                <li>Château Suduiraut</li>
-                <li>Cantine Florio</li>
-                <li>Frey Vineyards</li>
+                <li className='text-red-900 font-serif my-4'>Robert Monday</li>
+                <li className='text-red-900 font-serif my-4'>Hugei and Fils</li>
+                <li className='text-red-900 font-serif my-4'>Beringer</li>
+                <li className='text-red-900 font-serif my-4'>Veuve Clicquot</li>
+                <li className='text-red-900 font-serif my-4'>Château Suduiraut</li>
+                <li className='text-red-900 font-serif my-4'>Cantine Florio</li>
+                <li className='text-red-900 font-serif my-4'>Frey Vineyards</li>
             </ul>
         </div>
         
