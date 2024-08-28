@@ -16,7 +16,7 @@ function CheckOut() {
           {cart.map((item) => (
             <div
               key={item.id}
-              className="flex bg-orange-200 m-2 rounded-lg items-center justify-between md:w-[500px]"
+              className="flex bg-red-500 m-2 rounded-lg items-center justify-between md:w-[500px]"
             >
               <div className="h-24 w-24 grid place-content-center">
                 <img
@@ -69,8 +69,13 @@ function CheckOut() {
               </div>
             </div>
           ))}
-          <div className=" text-2xl text-brandbrown font-serif my-3">
+          <div className=" text-2xl text-brandbrown font-serif my-3 bg-red-500 m-2 rounded-lg items-center">
             Total: {cart.reduce((acc, curr) => acc + curr.qty * curr.price, 0)} NGN
+          </div>
+          <div>
+            <button className='text-1xl text-red-600'>
+              Purchase
+            </button>
           </div>
         </div>
       ) : (
